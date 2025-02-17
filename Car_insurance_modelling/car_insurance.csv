@@ -1,0 +1,64 @@
+The dataset,
+Column,Description
+id,Unique client identifier
+,
+,Client's age:
+,0: 16-25
+age,1: 26-39
+,2: 40-64
+,3: 65+
+,
+,Client's gender:
+gender,0: Female
+,1: Male
+,
+,Years the client has been driving:
+,0: 0-9
+driving_experience,1: 10-19
+,2: 20-29
+,3: 30+
+,
+,Client's level of education:
+,0: No education
+education,1: High school
+,2: University
+,
+,Client's income level:
+,0: Poverty
+income,1: Working class
+,2: Middle class
+,3: Upper class
+,
+credit_score,Client's credit score (between zero and one)
+,
+,Client's vehicle ownership status:
+vehicle_ownership,0: Does not own their vehilce (paying off finance)
+,1: Owns their vehicle
+,
+,Year of vehicle registration:
+vehcile_year,0: Before 2015
+,1: 2015 or later
+,
+,Client's marital status:
+married,0: Not married
+,1: Married
+,
+children,Client's number of children
+,
+postal_code,Client's postal code
+,
+annual_mileage,Number of miles driven by the client each year
+,
+,Type of car:
+vehicle_type,0: Sedan
+,1: Sports car
+,
+speeding_violations,Total number of speeding violations received by the client
+,
+duis,Number of times the client has been caught driving under the influence of alcohol
+,
+past_accidents,Total number of previous accidents the client has been involved in
+,
+,Whether the client made a claim on their car insurance (response variable):
+outcome,0: No claim
+,1: Made a claim
